@@ -337,3 +337,32 @@ section {
 .btn:active {
     transform: translateY(2px);
 }
+
+/* Style pour le lien de contact */
+.contact-link {
+    text-decoration: none; /* Supprime le soulignement par défaut */
+    color: #007bff; /* Couleur du texte du lien */
+    font-size: 1.2rem; /* Taille du texte */
+    font-weight: bold; /* Gras pour le texte */
+    display: inline-flex; /* Utilise flexbox pour aligner l'icône et le texte */
+    align-items: center; /* Centre l'icône et le texte */
+    gap: 10px; /* Espacement entre l'icône et le texte */
+    transition: color 0.3s ease, transform 0.3s ease; /* Ajoute des animations de transition */
+}
+
+.contact-link:hover {
+    color: #0056b3; /* Changer la couleur du texte au survol */
+    transform: scale(1.05); /* Légère augmentation de taille au survol */
+}
+
+/* Icône GitHub */
+.github-icon {
+    width: 20px; /* Ajuste la taille de l'icône */
+    height: auto;
+}
+
+/* Si le texte du lien est très long, on peut ajuster l'espacement pour qu'il ne prenne pas trop de place */
+.contact-link p {
+    margin-bottom: 0;
+}
+    
