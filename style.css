@@ -269,3 +269,58 @@ section {
 .btn:active {
     transform: translateY(2px); /* Fais bouger le bouton en l'animant légérement en haut */
 }
+
+/* Section Téléchargement */
+#telechargement {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+/* Style des items (Windows, macOS, Linux) */
+.os-item {
+    display: flex; /* Utilise Flexbox pour aligner horizontalement */
+    align-items: center; /* Aligne verticalement le texte et l'image */
+    justify-content: center; /* Centre le contenu horizontalement */
+    margin: 20px;
+}
+
+/* Icônes des OS */
+.os-icon {
+    width: 50px;  /* Taille des icônes (ajustable) */
+    height: auto;
+    margin-right: 15px;  /* Marge à droite de l'image pour séparer du texte */
+}
+
+/* Texte des systèmes d'exploitation */
+.os-item p {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 0;  /* Enlève la marge par défaut autour des paragraphes */
+    font-weight: normal;  /* Police standard */
+}
+
+/* Bouton de téléchargement */
+#telechargement .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 20px; /* Marge au-dessus du bouton */
+    width: 40%;  /* Largeur du bouton */
+    max-width: 250px;  /* Largeur maximale pour éviter un bouton trop large */
+}
+
+/* Effet au survol du bouton */
+.btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-5px);
+}
+
+.btn:active {
+    transform: translateY(2px);
+}
