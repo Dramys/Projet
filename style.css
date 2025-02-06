@@ -292,6 +292,19 @@ section {
     margin-right: 15px;  /* Marge à droite de l'image pour séparer du texte */
 }
 
+.github-item {
+    display: flex; /* Utilise Flexbox pour aligner horizontalement */
+    align-items: center; /* Aligne verticalement le texte et l'image */
+    justify-content: center; /* Centre le contenu horizontalement */
+    margin: 20px;
+}
+
+.github-icon {
+    width: 50px;
+    height: 10px;
+    margin-right: 15px;
+}
+
 /* Texte des systèmes d'exploitation */
 .os-item p {
     font-size: 1.2rem;
