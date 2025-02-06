@@ -1,0 +1,271 @@
+/* Réinitialisation de styles de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+    transform: scale(1.1);
+}
+
+/* Sections */
+section {
+    padding: 60px 0;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Titre des sections */
+h2 {
+    color: #007bff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Description de la section */
+#description p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Image dans la section description */
+#description img {
+    max-width: 80%;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Liste des fonctionnalités */
+ul {
+    list-style-type: square;
+    padding-left: 40px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+/* Bouton de téléchargement */
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-5px);
+}
+
+.btn:active {
+    transform: translateY(2px);
+}
+
+/* Contact */
+#contact p {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1rem;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+/* Réactivité pour les écrans mobiles */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    #description img {
+        max-width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 15px;
+    }
+
+}
+/* Section Téléchargement */
+#telechargement {
+    text-align: center;  /* Centre tout le contenu de cette section */
+}
+
+#telechargement .btn {
+    display: inline-block; /* Garde le bouton inline */
+    background-color: #007bff;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: 0 auto;  /* Centrage horizontal */
+    display: block; /* Transforme l'élément en bloc pour un alignement centré */
+}
+
+/* Effets au survol du bouton */
+.btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-5px);
+}
+
+.btn:active {
+    transform: translateY(2px);
+}
+
+/* Réinitialisation de styles de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ajout de la marge de 6% sur les côtés */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0 6%; /* Marge de 6% de chaque côté */
+}
+
+.container {
+    width: 100%; /* La largeur est maintenant ajustée en fonction de la marge du body */
+}
+
+/* Header */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Autres sections restent inchangées */
+section {
+    padding: 60px 0;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Et ainsi de suite... */
+
+/* Section Téléchargement */
+#telechargement {
+    text-align: center;  /* Centre tout le contenu de cette section */
+}
+
+/* Bouton de téléchargement */
+#telechargement .btn {
+    display: inline-block; /* Garde le bouton inline */
+    background-color: #007bff;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: 0 auto;  /* Centrage horizontal */
+    display: block; /* Transforme l'élément en bloc pour un alignement centré */
+    width: 40%;  /* Le bouton prend 40% de la largeur de son conteneur */
+    max-width: 200px;  /* Limite la largeur à un maximum de 200px pour éviter qu'il ne devienne trop large */
+}
+
+/* Effets au survol du bouton */
+.btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-5px);
+}
+
+.btn:active {
+    transform: translateY(2px); /* Fais bouger le bouton en l'animant légérement en haut */
+}
